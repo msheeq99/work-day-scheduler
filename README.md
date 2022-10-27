@@ -1,4 +1,6 @@
-#05 Third-Party APIs: Work Day Scheduler
+05 Third-Party APIs: Work Day Scheduler
+
+
 
 When the planner is opened the current date and time is displayed at the top of the page.
 The current time and date is updated by the second.
