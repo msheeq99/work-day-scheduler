@@ -11,6 +11,7 @@ Entries are saved to local storage and persist when the page is closed or refres
 ![challenge-05-scrnshot](https://user-images.githubusercontent.com/113865888/198308165-ac80adef-5b49-403a-852a-034c2a647fd9.png)
 
 DEPLOYED LINK:  https://msheeq99.github.io/work-day-scheduler/
+GITHUB URL: https://github.com/msheeq99/work-day-scheduler.git
 
 
 
