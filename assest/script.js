@@ -19,30 +19,25 @@ $(document).ready(function () {
  function timeTracker() {
         //get current number of hours.
         var timeNow = moment().hour();
+        console.log(timeNow)
 
         // loop over time blocks
-        $(".time-block").each(function () {
-            var blockTime = parseInt($(this).attr("id").split("hour")[1]);
-
-
+        $(".description").each(function (calender) {
+           
             // To check the time and add the classes for background indicators
-            if (blockTime < timeNow) {
-                $(this).removeClass("future");
-                $(this).removeClass("present");
+            if (timeNow > calender + 9) {
+                // Past color = grey 
                 $(this).addClass("past");
             }
-
-            else if (blockTime === timeNow) {
-                $(this).removeClass("past");
-                $(this).removeClass("future");
+            if (timeNow == calender + 9) {
+                // Present color = red 
                 $(this).addClass("present");
             }
-
-            else {
-                $(this).removeClass("present");
-                $(this).removeClass("past");
+            if (timeNow < calender + 9) {
+                // Future color = green 
                 $(this).addClass("future");
             }
+
         })
     }
 
