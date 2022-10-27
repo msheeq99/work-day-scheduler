@@ -9,3 +9,7 @@ Time blocks are colour coded to show if each hour is past, present or future. Co
 A user can click on a time block and add text. When text is added a save button will display and the user can save their entry.
 Entries are saved to local storage and persist when the page is closed or refreshed.
 
+![challenge-05-scrnshot](https://user-images.githubusercontent.com/113865888/198308165-ac80adef-5b49-403a-852a-034c2a647fd9.png)
+
+
+
