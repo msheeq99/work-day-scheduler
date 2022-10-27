@@ -1,9 +1,6 @@
 // display today's day and date.
-const todayDate = moment().format('dddd, MMM Do YYYY, H:mm');
+const todayDate = moment().format('dddd, MMM Do YYYY');
 $("#currentDay").html(todayDate);
-
-
-
 
 $(document).ready(function () {
     // saveBtn click listener 
